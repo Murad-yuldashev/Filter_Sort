@@ -1,0 +1,34 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #e9eae3;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+  margin-bottom: 50px;
+
+  .menuContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 12vh 0 8vh;
+
+    .menuBox {
+      margin: auto;
+      h1 {
+        font-size: 40px;
+      }
+      .underline {
+        width: 80px;
+        height: 4px;
+        background-color: #cfa230;
+        margin-top: 10px !important;
+        margin: auto;
+      }
+    }
+  }
+}
